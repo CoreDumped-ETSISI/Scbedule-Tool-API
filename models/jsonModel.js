@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 
 var jsonSchema = new Schema({
     file: {
-        type: JSON,
+        type: String,
     }
 });
 
