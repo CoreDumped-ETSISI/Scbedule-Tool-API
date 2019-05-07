@@ -5,5 +5,5 @@ module.exports = function(app) {
     
     app.route('/json')
     .get(json.getJson)
-    .post(json.postJson);
+    .delete(json.deleteJson)
 };
