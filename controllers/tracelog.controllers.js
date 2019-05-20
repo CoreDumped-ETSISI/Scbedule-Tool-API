@@ -13,6 +13,7 @@ exports.saveError = function(req, res){
 		});
 
 		res.send({message:'ok'})
+		console.log('ok')
 	}else{
 		res.send({message:'Undefined request'});
 	}

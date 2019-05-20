@@ -44,9 +44,9 @@ app.post('/profile', upload.single('file'), function (req, res, next) {
     fs.readdir(dir, (err, files) => {
       console.log(files)
       var len = files.length;
-      if(len >= 4){
+      if(len > 1){
         for(var i = len; i>0; i--){
-          if(i>=4){
+          if(i > 1){
             fs.unlink('./uploads/'+files[i-1], (err) => {
               if (err)
                 res.send(err)
