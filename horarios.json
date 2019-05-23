@@ -132,28 +132,38 @@
     },
     "ORGANIZACION":{
         "Software":{
-        "1":["GM11", "GM12", "GM13", "GM14", "GM15", "GT11", "GT12", "GT13"],
-        "2":["GM21", "GM22", "GM23", "GT21", "GT22"],
-        "3": ["GIWM31", "GIWT31"],
-        "4":["GMOPT41", "GMOPT41a", "GMOPT41b", "GTOPT41", "GTOPT42"]
+        "Primero":["GM11", "GM12", "GM13", "GM14", "GM15", "GT11", "GT12", "GT13"],
+        "Segundo":["GM21", "GM22", "GM23", "GT21", "GT22"],
+        "Tercero": ["GIWM31", "GIWT31"],
+        "Cuarto":["GMOPT41", "GMOPT41a", "GMOPT41b", "GTOPT41", "GTOPT42"]
         }, 
         "Computadores":{
-        "1":["GM11", "GM12", "GM13", "GM14", "GM15", "GT11", "GT12", "GT13"],
-        "2":["GM21", "GM22", "GM23", "GT21", "GT22"],
-        "3":["GCOM31"],
-        "4":["GMOPT41", "GMOPT41a", "GMOPT41b", "GTOPT41", "GTOPT42"]
+        "Primero":["GM11", "GM12", "GM13", "GM14", "GM15", "GT11", "GT12", "GT13"],
+        "Segundo":["GM21", "GM22", "GM23", "GT21", "GT22"],
+        "Tercero":["GCOM31"],
+        "Cuarto":["GMOPT41", "GMOPT41a", "GMOPT41b", "GTOPT41", "GTOPT42"]
         },
         "Sistemas de Información":{
-        "1":["GM11", "GM12", "GM13", "GM14", "GM15", "GT11", "GT12", "GT13"],
-        "2":["GM21", "GM22", "GM23", "GT21", "GT22"],
-        "3":["GIWM31", "GIWT31", "GTIM31"],
-        "4":["GMOPT41", "GMOPT41a", "GMOPT41b", "GTOPT41", "GTOPT42"]
+        "Primero":["GM11", "GM12", "GM13", "GM14", "GM15", "GT11", "GT12", "GT13"],
+        "Segundo":["GM21", "GM22", "GM23", "GT21", "GT22"],
+        "Tercero":["GIWM31", "GIWT31", "GTIM31"],
+        "Cuarto":["GMOPT41", "GMOPT41a", "GMOPT41b", "GTOPT41", "GTOPT42"]
         },
         "Tecnologías de Soc de Inf":{
-        "1":["GM11", "GM12", "GM13", "GM14", "GM15", "GT11", "GT12", "GT13"],
-        "2":["GM21", "GM22", "GM23", "GT21", "GT22"],
-        "3":["GTIM31"],
-        "4":["GMOPT41", "GMOPT41a", "GMOPT41b", "GTOPT41", "GTOPT42"]
+        "Primero":["GM11", "GM12", "GM13", "GM14", "GM15", "GT11", "GT12", "GT13"],
+        "Segundo":["GM21", "GM22", "GM23", "GT21", "GT22"],
+        "Tercero":["GTIM31"],
+        "Cuarto":["GMOPT41", "GMOPT41a", "GMOPT41b", "GTOPT41", "GTOPT42"]
+        },
+        "Software y Tech. Soc. Infor.":{
+        "Primero":["GM11", "GM12", "GM13", "GM14", "GM15", "GT11", "GT12", "GT13"],
+        "Segundo":["GM21", "GM22", "GM23", "GT21", "GT22"],
+        "Tercero":["GIWM31", "GIWT31", "GTIM31"]
+        },
+        "Computadores y Tech. Soc. Infor.":{
+            "Primero":["GM11", "GM12", "GM13", "GM14", "GM15", "GT11", "GT12", "GT13"],
+            "Segundo":["GM21", "GM22", "GM23", "GT21", "GT22"],
+            "Tercero":["GCOM31", "GTIM31"]
         }
         
     }
