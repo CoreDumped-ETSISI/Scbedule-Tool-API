@@ -61,6 +61,9 @@ del tipo **form-data** donde seleccionamos el JSON que hemos creado.
 ### Leer el JSON almacenado:
 Peticion GET a la direccion **http://localhost:3000/json**  (Cambiar localhost por su direccion IP)
 ### Mandar un error a la API de la  páina:
+Peticion POST a la dirección **http://localhost:3000/tracelog** (Cambiar localhost por su direccion IP)
+del tipo **x-www-form-urlencoded** donde le pasamos los siguientes parametros:
+**errorName**, **errorFile**, **errorLine**, **errorFolder**
 
 API for the schedule tool
 
